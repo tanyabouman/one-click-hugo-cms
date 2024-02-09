@@ -52,3 +52,12 @@ For an icon named `icons-facebook.svg`, refer to the SVG `social-icon` partial l
 ```
 {{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
 ```
+
+## TODO ideas
+
+At the moment, I'm annoyed by some webpack problems.
+The one is that it has a bundle size warning for the build.  The bundle is 4.73MB, so I want to analyze it, and figure out what the problem is.
+https://www.npmjs.com/package/webpack-bundle-analyzer
+
+And the other webpack thing is to do some of these migration updates that have clearly not been done.  I know this because there's a warning when you build it about hash and contenthash.
+https://webpack.js.org/migrate/5/#clean-up-configuration

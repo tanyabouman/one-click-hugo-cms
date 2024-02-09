@@ -23,7 +23,6 @@ module.exports = merge(common, {
         terserOptions: {
           sourceMap: true,
         },
-        exclude: /\/node_modules\//,
       }),
       new MiniCssExtractPlugin({
         filename: "[name].[hash:5].css",
