@@ -59,5 +59,8 @@ At the moment, I'm annoyed by some webpack problems.
 The one is that it has a bundle size warning for the build.  The bundle is 4.73MB, so I want to analyze it, and figure out what the problem is.
 https://www.npmjs.com/package/webpack-bundle-analyzer
 
+It looks like the problem is upstream, https://github.com/decaporg/decap-cms/issues/328
+
 And the other webpack thing is to do some of these migration updates that have clearly not been done.  I know this because there's a warning when you build it about hash and contenthash.
 https://webpack.js.org/migrate/5/#clean-up-configuration
+
